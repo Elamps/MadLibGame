@@ -2,7 +2,7 @@
 ---
 ## Wireframe/Description
 ![Image](madwireframe.png)
-> Blockquote A simple web-browser mad lib, by using a random API to retreive needed input and placing those into the story for the user. 
+> A simple web-browser mad lib, by using a random API to retreive needed input and placing those into the story for the user. 
 ---
 ### Psuedocode
 - //create a button to pull a madlib API, (possibly http://madlibz.herokuapp.com/api/random)
