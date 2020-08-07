@@ -18,3 +18,6 @@
 - add a delayed laugh track
 - dark/light mode
 ---
+##### User Stories
+- Dave wants to input juvenile text strings to giggle at stories.
+- Sandy wanted to have an easy to use way to make silly stories.
