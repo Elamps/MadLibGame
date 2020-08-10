@@ -14,14 +14,21 @@ let noun5 = document.querySelector('#noun5')
 let noun6 = document.querySelector('#noun6')
 let pob2 = document.querySelector('#pob2')
 let start = document.querySelector('#start')
+let fullLib = document.querySelector('#fullLib') 
 
 start.addEventListener('click', writeLib, false)
 
 
 function writeLib() {
     console.log("write")
-    document.write("Ye can always pretend to be a bloodthirsty " + noun1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + verb1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + noun2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pnoun1.value  + ",\"\"Avast, ye " + pnoun2.value  + ",\" and \"Shiver me " + pnoun3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye a/an " + pob1.value  + " start to being recognized as a swashbucklin' " + noun3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + noun4.value  + " on yer head, stash a/an " + noun5.value  +" in yer pants, and keep a/an " + noun6.value  + " perched atop yer " + pob2.value  +". Aye, now ye be a real pirate!",);
+    let finishedLib= ""
+    finishedLib = "Ye can always pretend to be a bloodthirsty " + noun1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + verb1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + noun2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pnoun1.value  + ",\"\"Avast, ye " + pnoun2.value  + ",\" and \"Shiver me " + pnoun3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye a/an " + pob1.value  + " start to being recognized as a swashbucklin' " + noun3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + noun4.value  + " on yer head, stash a/an " + noun5.value  +" in yer pants, and keep a/an " + noun6.value  + " perched atop yer " + pob2.value  +". Aye, now ye be a real pirate!"
+    fullLib.textContent = finishedLib
 }
+
+
+//     document.write("Ye can always pretend to be a bloodthirsty " + noun1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + verb1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + noun2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pnoun1.value  + ",\"\"Avast, ye " + pnoun2.value  + ",\" and \"Shiver me " + pnoun3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye a/an " + pob1.value  + " start to being recognized as a swashbucklin' " + noun3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + noun4.value  + " on yer head, stash a/an " + noun5.value  +" in yer pants, and keep a/an " + noun6.value  + " perched atop yer " + pob2.value  +". Aye, now ye be a real pirate!",);
+// }
 
 // "title": "Talk Like a Pirate",
     // "blanks": [
