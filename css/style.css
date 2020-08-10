@@ -1,4 +1,9 @@
 body {
     background-color: darkslategrey;
     font-size: large;
+    color: seashell;
+}
+
+#fullLib {
+margin-top: 50px;
 }
