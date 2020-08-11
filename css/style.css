@@ -1,6 +1,7 @@
 [data-tab-content] {
     display: none;
 }
+
 .active[data-tab-content] {
     display: block;
 }
@@ -25,6 +26,14 @@ ul {
     border-right: 3px solid black;
 }
 
+.tab.active {
+    background-color: #ccc;    
+}
+
+.tab:hover {
+    background-color: #AAA;
+}
+ 
 body {
     background-color: darkslategrey;
     font-size: large;
