@@ -33,6 +33,11 @@ ul {
 .tab:hover {
     background-color: #AAA;
 }
+
+.tab-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
  
 body {
     background-color: darkslategrey;
