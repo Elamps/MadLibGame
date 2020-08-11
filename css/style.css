@@ -6,7 +6,7 @@
 }
 
 ul {
-   
+   font-size: 40px;
 }
 
 .tabs {
@@ -15,14 +15,16 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid black;
-
+    border-bottom: 3px solid black;
 }
+
 .tab {
     cursor: pointer;
-    padding: 10px
-
+    padding: 10px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
 }
+
 body {
     background-color: darkslategrey;
     font-size: large;
