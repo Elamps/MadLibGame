@@ -78,7 +78,9 @@ tabs.forEach(tab => {
     })
 })
 
-startPirate.addEventListener('click', writeLib, false)
+startPirate.addEventListener('click', writeLibPirate, false)
+startFish.addEventListener('click', writeLibFish, false)
+startPig.addEventListener('click', writeLibPig, false)
 
 function startsWithVowel(word){
     let vowels = ("aeiouAEIOU"); 
@@ -86,10 +88,10 @@ function startsWithVowel(word){
 }
 
 
-function writeLib() {
+function writeLibPirate() {
     console.log("write")
     let finishedLibPirate= ""
-    finishedLibPirate = "Ye can always pretend to be a bloodthirsty " + noun1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + verb1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + noun2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pnoun1.value  + ",\"\"Avast, ye " + pnoun2.value  + ",\" and \"Shiver me " + pnoun3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye " + (startsWithVowel(pob1.value) ? "an " : "a ") + "" + pob1.value  + " start to being recognized as a swashbucklin' " + noun3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + noun4.value  + " on yer head, stash " + (startsWithVowel(noun5.value) ? "an " : "a ") + ""  + noun5.value  +" in yer pants, and keep " + (startsWithVowel(noun6.value) ? "an " : "a ") + ""  + noun6.value  + " perched atop yer " + pob2.value  +". Aye, now ye be a real pirate!"
+    finishedLibPirate = "Ye can always pretend to be a bloodthirsty " + noun1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + verb1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + noun2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pnoun1.value  + ",\"\"Avast, ye " + pnoun2.value  + ",\" and \"Shiver me " + pnoun3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye " + (startsWithVowel(pob1.value) ? "an " : "a ") + "" + pob1.value  + " start to being recognized as a swashbucklin' " + noun3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + noun4.value  + " on yer head, stash " + (startsWithVowel(noun5.value) ? "an " : "a ") + ""  + noun5.value + " in yer pants, and keep " + (startsWithVowel(noun6.value) ? "an " : "a ") + ""  + noun6.value  + " perched atop yer " + pob2.value + ". Aye, now ye be a real pirate!"
     fullLibPirate.textContent = finishedLibPirate;
     document.getElementById("noun1").type = "hidden";
     document.getElementById("adj1").type = "hidden";
@@ -106,8 +108,27 @@ function writeLib() {
     document.getElementById("noun5").type = "hidden";
     document.getElementById("noun6").type = "hidden";
     document.getElementById("pob2").type = "hidden";
-    console.log("apple ".concat(startsWithVowel(noun1) ? "starts with a vowel" : "does not start with a vowel"));
+}
 
+
+function writeLibFish() {
+    console.log("writeFish")
+    let finishedLibFish= ""
+    finishedLibFish =  "If you are traveling in " + ffcy + "and find yourself having to cross a piranha-filled river, here's how to do it " + fav1 + ": \n* Piranhas are more " + faj1 + " during the day, so cross the river at night.\n* Avoid areas with netted " + fani + " traps--piranhas may be " + fvg1 + " there looking to " + fvb1 + " them!\n* When " + fvg2 + " the river, swim " + fav2 + ". You don't want to wake them up and make them " + faj2 + "!\n* Whatever you do, if you have an open wound, try to find another way to get back to the " + fapl + ". Piranhas are attracted to fresh " + fatl + " and will most likely take a bite out of your " + fpob + " if you " + fvb2 + " in the water!" 
+    fullLibFish.textContent = finishedLibFish;
+    document.getElementById("ffcy").type = "hidden";
+    document.getElementById("fav1").type = "hidden";
+    document.getElementById("faj1").type = "hidden";
+    document.getElementById("fani").type = "hidden";
+    document.getElementById("fvg1").type = "hidden";
+    document.getElementById("fvb1").type = "hidden";
+    document.getElementById("fvg2").type = "hidden";
+    document.getElementById("fav2").type = "hidden";
+    document.getElementById("faj2").type = "hidden";
+    document.getElementById("fapl").type = "hidden";
+    document.getElementById("fatl").type = "hidden";
+    document.getElementById("fpob").type = "hidden";
+    document.getElementById("fvb2").type = "hidden";
 }
 
 
