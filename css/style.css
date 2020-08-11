@@ -1,3 +1,10 @@
+[data-tab-content] {
+    display: none;
+}
+.active[data-tab-content] {
+    display: block;
+}
+
 body {
     background-color: darkslategrey;
     font-size: large;

@@ -7,6 +7,13 @@
     <script defer src="js/script.js"></script>
     <title>Mad Lib</title>
 </head>
+<body>
+    <ul>
+        <li data-tab-target="#pirate">How to Be A Pirate</li>
+        <li>How to Swim With Pirahnas</li>
+    </ul>
+<div class="tab-content">
+    <div id="pirate" data-tab-content class="active">
 <input class="lib" id="noun1" type="text" placeholder="Noun"></input>
 <input class="lib" id="adj1" type="text" placeholder="Adjective"> </input>
 <input class="lib" id="verb1" type="text" placeholder="Verb"></input>
@@ -22,11 +29,10 @@
 <input class="lib" id="noun5" type="text" placeholder="Noun"></input>
 <input class="lib" id="noun6" type="text" placeholder="Noun"> </input>
 <input class="lib" id="pob2" type="text" placeholder="Part of the body"> </input>
-
-<div id="fullLib"></div>
-
+<div id="fullLibPirate"></div>
 <h1><button type button id="start">Get Started</button> </h1>
-<body>
-    
+    </div>
+    <div id="pirahnas" data-tab-content>  
+    </div>
 </body>
 </html>
