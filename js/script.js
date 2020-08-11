@@ -18,19 +18,19 @@ let pob2 = document.querySelector('#pob2')
 let startPirate = document.querySelector('#startPirate')
 let fullLibPirate = document.querySelector('#fullLibPirate')
 
-let ffcy = document.querySelector("ffcy")
-let fav1 = document.querySelector("fav1")
-let faj1 = document.querySelector("faj1")
-let fani = document.querySelector("fani")
-let fvg1 = document.querySelector("fvg1")
-let fvb1 = document.querySelector("fvb1")
-let fvg2 = document.querySelector("fvg2")
-let fav2 = document.querySelector("fav2")
-let faj2 = document.querySelector("faj2")
-let fapl = document.querySelector("fapl")
-let fatl = document.querySelector("fatl")
-let fpob = document.querySelector("fpob")
-let fvb2 = document.querySelector("fvb2")
+let ffcy = document.querySelector("#ffcy")
+let fav1 = document.querySelector("#fav1")
+let faj1 = document.querySelector("#faj1")
+let fani = document.querySelector("#fani")
+let fvg1 = document.querySelector("#fvg1")
+let fvb1 = document.querySelector("#fvb1")
+let fvg2 = document.querySelector("#fvg2")
+let fav2 = document.querySelector("#fav2")
+let faj2 = document.querySelector("#faj2")
+let fapl = document.querySelector("#fapl")
+let fatl = document.querySelector("#fatl")
+let fpob = document.querySelector("#fpob")
+let fvb2 = document.querySelector("#fvb2")
 let startFish = document.querySelector('#startFish')
 let fullLibFish = document.querySelector('#fullLibFish')
 
@@ -114,7 +114,7 @@ function writeLibPirate() {
 function writeLibFish() {
     console.log("writeFish")
     let finishedLibFish= ""
-    finishedLibFish =  "If you are traveling in " + ffcy + "and find yourself having to cross a piranha-filled river, here's how to do it " + fav1 + ": \n* Piranhas are more " + faj1 + " during the day, so cross the river at night.\n* Avoid areas with netted " + fani + " traps--piranhas may be " + fvg1 + " there looking to " + fvb1 + " them!\n* When " + fvg2 + " the river, swim " + fav2 + ". You don't want to wake them up and make them " + faj2 + "!\n* Whatever you do, if you have an open wound, try to find another way to get back to the " + fapl + ". Piranhas are attracted to fresh " + fatl + " and will most likely take a bite out of your " + fpob + " if you " + fvb2 + " in the water!" 
+    finishedLibFish =  "If you are traveling in " + ffcy.value + "and find yourself having to cross a piranha-filled river, here's how to do it " + fav1.value + "Piranhas are more " + faj1.value + " during the day, so cross the river at night. Avoid areas with netted " + fani.value + " traps--piranhas may be " + fvg1.value + " there looking to " + fvb1.value + " them! When " + fvg2.value + " the river, swim " + fav2.value + ". You don't want to wake them up and make them " + faj2.value + "! Whatever you do, if you have an open wound, try to find another way to get back to the " + fapl.value + ". Piranhas are attracted to fresh " + fatl.value + " and will most likely take a bite out of your " + fpob.value + " if you " + fvb2.value + " in the water!" 
     fullLibFish.textContent = finishedLibFish;
     document.getElementById("ffcy").type = "hidden";
     document.getElementById("fav1").type = "hidden";
