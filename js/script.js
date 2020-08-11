@@ -132,38 +132,40 @@ function writeLibFish() {
 }
 
 
+
+function writeLibPig() {
+    console.log("write3")
+    let finishedLibPig= ""
+    finishedLibPig =  "Once up a time, there were three " + aj1.value + " pigs. One day, their mother said, \"You are all grown up and must " + vb1.value + " on your own.\" So they left to " + vb2.value + " their houses. The first little pig wanted only to " + vb3.value + " all day and quickly built his house out of " + pn1.value + ". The second little pig wanted to " + vb4.value + " and " + vb5.value + " all day so he " + pvb1.value + " his house with " + pn2.value + ". The third " + aj2.value + " pig knew the wolf lived nearby and worked hard to " + vb6.value + "his house out of " + pn3.value + " One day, the wolf knocked on the first pig's " + n1.value +  ". \"Let me in or I'll " + vb7.value + " your house down!\" The pig didn't, so the wolf " + pvb2.value + " down the " + n2.value + ". The wolf knocked on the second pig's " + n3.value + ". \"Let me in or I'll blow your " + n4.value + " down!\" The pig didn't, so the wolf " + pvb3.value + " down the house. Then the wolf knocked on the third " + aj3.value + " pig's door. \"Let me in or I'll blow your house down!\" The little pig didn't so the wolf " + pvb4.value + " and " + pvb5.value + ". He could not blow the house down. All the pigs went to live in the " + n5.value + " house and they all " + pvb6.value + " happily ever after."
+    fullLibPig.textContent = finishedLibPig;
+    document.getElementById("aj1").type = "hidden";
+    document.getElementById("vb1").type = "hidden";
+    document.getElementById("vb2").type = "hidden";
+    document.getElementById("vb3").type = "hidden";
+    document.getElementById("pn1").type = "hidden";
+    document.getElementById("vb4").type = "hidden";
+    document.getElementById("vb5").type = "hidden";
+    document.getElementById("pvb1").type = "hidden";
+    document.getElementById("pn2").type = "hidden";
+    document.getElementById("aj2").type = "hidden";
+    document.getElementById("vb6").type = "hidden";
+    document.getElementById("pn3").type = "hidden";
+    document.getElementById("n1").type = "hidden";
+    document.getElementById("vb7").type = "hidden";
+    document.getElementById("pvb2").type = "hidden";
+    document.getElementById("n2").type = "hidden";
+    document.getElementById("n3").type = "hidden";
+    document.getElementById("n4").type = "hidden";
+    document.getElementById("pvb3").type = "hidden";
+    document.getElementById("aj3").type = "hidden";
+    document.getElementById("pvb4").type = "hidden";
+    document.getElementById("pvb5").type = "hidden";
+    document.getElementById("n5").type = "hidden";
+    document.getElementById("pvb6").type = "hidden";
+}
+
 // "title": "How To Cross a Piranha-Infested River",
-//     "value": [
-//         "If you are traveling in ",
-//         " and find yourself having to cross a piranha-filled river, here's how to do it ",
-//         ": \n* Piranhas are more ",
-//         " during the day, so cross the river at night.\n* Avoid areas with netted ",
-//         " traps--piranhas may be ",
-//         " there looking to ",
-//         " them!\n* When ",
-//         " the river, swim ",
-//         ". You don't want to wake them up and make them ",
-//         "!\n* Whatever you do, if you have an open wound, try to find another way to get back to the ",
-//         ". Piranhas are attracted to fresh ",
-//         " and will most likely take a bite out of your ",
-//         " if you ",
-//         " in the water!",
-//         0
-//     ],
-//     "blanks": [
-//         "foreign country",
-//         "adverb",
-//         "adjective",
-//         "animal",
-//         "verb ending in 'ing'",
-//         "verb",
-//         "verb ending in 'ing'",
-//         "adverb",
-//         "adjective",
-//         "a place",
-//         "type of liquid",
-//         "part of the body",
-//         "verb"
+
 
 // "title": "Three Little Pigs",
 // "blanks": [
@@ -223,47 +225,9 @@ function writeLibFish() {
 // }
 
 
-//     document.write("Ye can always pretend to be a bloodthirsty " + noun1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + verb1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + noun2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pnoun1.value  + ",\"\"Avast, ye " + pnoun2.value  + ",\" and \"Shiver me " + pnoun3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye a/an " + pob1.value  + " start to being recognized as a swashbucklin' " + noun3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + noun4.value  + " on yer head, stash a/an " + noun5.value  +" in yer pants, and keep a/an " + noun6.value  + " perched atop yer " + pob2.value  +". Aye, now ye be a real pirate!",);
-// }
+
 
 // "title": "Talk Like a Pirate",
-    // "blanks": [
-    //     "noun",
-    //     "adjective",
-    //     "verb",
-    //     "adverb",
-    //     "noun",
-    //     "adjective",
-    //     "plural noun",
-    //     "plural noun",
-    //     "plural noun",
-    //     "part of the body",
-    //     "noun",
-    //     "noun",
-    //     "noun",
-    //     "noun",
-    //     "part of the body"
-
-
-
-
-    // "value": 
-    //     "Ye can always pretend to be a bloodthirsty ",
-    //     ", threatening everyone by waving yer ",
-    //     " sword in the air, but until ye learn to ",
-    //     " like a pirate, ye'll never be ",
-    //     " accepted as an authentic ",
-    //     ". So here's what ye do: Cleverly work into yer daily conversations ",
-    //     " pirate phrases such as \"Ahoy there, ",
-    //     ",\"\"Avast, ye ",
-    //     ",\" and \"Shiver me ",
-    //     ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye a/an ",
-    //     " start to being recognized as a swashbucklin' ",
-    //     ". Once ye have the lingo down pat, it helps to wear a three-cornered ",
-    //     " on yer head, stash a/an ",
-    //     " in yer pants, and keep a/an ",
-    //     " perched atop yer ",
-    //     ". Aye, now ye be a real pirate!",
         
 // let blanks = [];
 
