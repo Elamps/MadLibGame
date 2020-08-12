@@ -16,6 +16,7 @@ let noun5 = document.querySelector('#noun5')
 let noun6 = document.querySelector('#noun6')
 let pob2 = document.querySelector('#pob2')
 let startPirate = document.querySelector('#startPirate')
+let resetPirate = document.querySelector('#resetPirate')
 let fullLibPirate = document.querySelector('#fullLibPirate')
 
 let ffcy = document.querySelector("#ffcy")
@@ -32,6 +33,7 @@ let fatl = document.querySelector("#fatl")
 let fpob = document.querySelector("#fpob")
 let fvb2 = document.querySelector("#fvb2")
 let startFish = document.querySelector('#startFish')
+let resetFish = document.querySelector('#resetFish')
 let fullLibFish = document.querySelector('#fullLibFish')
 
 
@@ -80,6 +82,7 @@ tabs.forEach(tab => {
 
 startPirate.addEventListener('click', writeLibPirate, false)
 startFish.addEventListener('click', writeLibFish, false)
+resetFish.addEventListener('click', rewriteLibFish, false)
 startPig.addEventListener('click', writeLibPig, false)
 
 function startsWithVowel(word){
@@ -129,6 +132,36 @@ function writeLibFish() {
     document.getElementById("fatl").type = "hidden";
     document.getElementById("fpob").type = "hidden";
     document.getElementById("fvb2").type = "hidden";
+}
+
+function rewriteLibFish() {
+    fullLibFish.textContent = "";
+    document.getElementById("ffcy").type = "text";
+    document.getElementById("fav1").type = "text";
+    document.getElementById("faj1").type = "text";
+    document.getElementById("fani").type = "text";
+    document.getElementById("fvg1").type = "text";
+    document.getElementById("fvb1").type = "text";
+    document.getElementById("fvg2").type = "text";
+    document.getElementById("fav2").type = "text";
+    document.getElementById("faj2").type = "text";
+    document.getElementById("fapl").type = "text";
+    document.getElementById("fatl").type = "text";
+    document.getElementById("fpob").type = "text";
+    document.getElementById("fvb2").type = "text";
+    ffcy.value = ""
+    fav1.value = ""
+    faj1.value = ""
+    fani.value = ""
+    fvg1.value = ""
+    fvb1.value = ""
+    fvg2.value = ""
+    fav2.value = ""
+    faj2.value = ""
+    fapl.value = ""
+    fatl.value = ""
+    fpob.value = ""
+    fvb2.value = ""
 }
 
 
