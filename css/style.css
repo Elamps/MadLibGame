@@ -50,3 +50,21 @@ body {
 #fullLib {
 margin-top: 50px;
 }
+
+#pirate {
+    background-image: url("https://img.favpng.com/7/3/6/captain-hook-piracy-royalty-free-privateer-png-favpng-dnJTMxBDUyRRWBBkj7KmGugWX.jpg");
+    background-position: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#pirate input {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    align-items: center ;
+    font-size: 20px;
+
+    background-color: darkgray;
+}
