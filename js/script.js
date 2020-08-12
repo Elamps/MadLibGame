@@ -81,10 +81,12 @@ tabs.forEach(tab => {
     })
 })
 
-startPirate.addEventListener('click', writeLibPirate, false)
-startFish.addEventListener('click', writeLibFish, false)
-resetFish.addEventListener('click', rewriteLibFish, false)
-startPig.addEventListener('click', writeLibPig, false)
+startPirate.addEventListener('click', writeLibPirate, false);
+resetPirate.addEventListener('click', rewriteLibPirate, false);
+startFish.addEventListener('click', writeLibFish, false);
+resetFish.addEventListener('click', rewriteLibFish, false);
+startPig.addEventListener('click', writeLibPig, false);
+resetPig.addEventListener('click', rewriteLibPig, false);
 
 function startsWithVowel(word){
     let vowels = ("aeiouAEIOU"); 
@@ -95,7 +97,7 @@ function startsWithVowel(word){
 function writeLibPirate() {
     console.log("write")
     let finishedLibPirate= ""
-    finishedLibPirate = "Ye can always pretend to be a bloodthirsty " + nou1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + ver1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + nou2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pno1.value  + ",\"\"Avast, ye " + pno2.value  + ",\" and \"Shiver me " + pno3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye " + (startsWithVowel(pob1.value) ? "an " : "a ") + "" + pob1.value  + " start to being recognized as a swashbucklin' " + nou3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + nou4.value  + " on yer head, stash " + (startsWithVowel(nou5.value) ? "an " : "a ") + ""  + nou5.value + " in yer pants, and keep " + (startsWithVowel(noun6.value) ? "an " : "a ") + ""  + nou6.value  + " perched atop yer " + pob2.value + ". Aye, now ye be a real pirate!"
+    finishedLibPirate = "Ye can always pretend to be a bloodthirsty " + nou1.value + ", threatening everyone by waving yer " + adj1.value  + " sword in the air, but until ye learn to " + ver1.value  + " like a pirate, ye'll never be " + adv1.value  + " accepted as an authentic " + nou2.value  + ". So here's what ye do: Cleverly work into yer daily conversations " + adj2.value  + " pirate phrases such as \"Ahoy there, " + pno1.value  + ",\"\"Avast, ye " + pno2.value  + ",\" and \"Shiver me " + pno3.value  + ".\" Remember to drop all yer gs when ye say such words as sailin', spittin', and fightin'. This will give ye " + (startsWithVowel(pob1.value) ? "an " : "a ") + "" + pob1.value  + " start to being recognized as a swashbucklin' " + nou3.value  + ". Once ye have the lingo down pat, it helps to wear a three-cornered " + nou4.value  + " on yer head, stash " + (startsWithVowel(nou5.value) ? "an " : "a ") + ""  + nou5.value + " in yer pants, and keep " + (startsWithVowel(nou6.value) ? "an " : "a ") + ""  + nou6.value  + " perched atop yer " + pob2.value + ". Aye, now ye be a real pirate!"
     fullLibPirate.textContent = finishedLibPirate;
     document.getElementById("nou1").type = "hidden";
     document.getElementById("adj1").type = "hidden";
@@ -113,6 +115,41 @@ function writeLibPirate() {
     document.getElementById("nou6").type = "hidden";
     document.getElementById("pob2").type = "hidden";
 }
+function rewriteLibPirate() {
+    fullLibPirate.textContent = "";
+    document.getElementById("nou1").type = "text";
+    document.getElementById("adj1").type = "text";
+    document.getElementById("ver1").type = "text";
+    document.getElementById("adv1").type = "text";
+    document.getElementById("nou2").type = "text";
+    document.getElementById("adj2").type = "text";
+    document.getElementById("pno1").type = "text";
+    document.getElementById("pno2").type = "text";
+    document.getElementById("pno3").type = "text";
+    document.getElementById("pob1").type = "text";
+    document.getElementById("nou3").type = "text";
+    document.getElementById("nou4").type = "text";
+    document.getElementById("nou5").type = "text";
+    document.getElementById("nou6").type = "text";
+    document.getElementById("pob2").type = "text";
+    nou1.value = ""
+    adj1.value = ""
+    ver1.value = ""
+    adv1.value = ""
+    nou2.value = ""
+    adj2.value = ""
+    pno1.value = ""
+    pno2.value = ""
+    pno3.value = ""
+    pob1.value = ""
+    nou3.value = ""
+    nou4.value = ""
+    nou5.value = ""
+    nou6.value = ""
+    pob2.value = ""
+
+}
+
 
 
 function writeLibFish() {
@@ -197,7 +234,9 @@ function writeLibPig() {
     document.getElementById("gsn5").type = "hidden";
     document.getElementById("pvb6").type = "hidden";
 }
+function rewriteLibPig() {
 
+}
 // "title": "How To Cross a Piranha-Infested River",
 
 
