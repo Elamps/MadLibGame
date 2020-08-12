@@ -83,9 +83,9 @@ tabs.forEach(tab => {
 
 startPirate.addEventListener('click', checkCompletePirate, false);
 resetPirate.addEventListener('click', rewriteLibPirate, false);
-startFish.addEventListener('click', writeLibFish, false);
+startFish.addEventListener('click', checkCompleteFish, false);
 resetFish.addEventListener('click', rewriteLibFish, false);
-startPig.addEventListener('click', writeLibPig, false);
+startPig.addEventListener('click', checkCompletePig, false);
 resetPig.addEventListener('click', rewriteLibPig, false);
 
 function startsWithVowel(word){
@@ -95,35 +95,35 @@ function startsWithVowel(word){
 
 function checkCompletePirate(){
     if (nou1.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (adj1.value == "") {
-        console.log(`not finished`) 
+        alert("Please fill out all forms!") 
     } else if (ver1.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (adv1.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (nou2.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (adj2.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (pno1.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (pno2.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (pno3.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (pob1.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (nou3.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (nou4.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (nou5.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     } else if (nou6.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     }else if (pob2.value == "") {
-        console.log(`not finished`)
+        alert("Please fill out all forms!")
     }
     else { 
         writeLibPirate()
@@ -187,6 +187,38 @@ function rewriteLibPirate() {
 
 }
 
+function checkCompleteFish(){
+   if(ffcy.value == "") {
+   alert("Please fill out all forms!")
+  } else if(fav1.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(faj1.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(fani.value == "") {
+    alert("Please fill out all forms!")
+  } else if(fvg1.value == "") {
+    alert("Please fill out all forms!")
+  } else if(fvb1.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(fvg2.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(fav2.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(faj2.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(fapl.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(fatl.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(fpob.value == "") { 
+    alert("Please fill out all forms!")
+  } else if(fvb2.value == "") {
+    alert("Please fill out all forms!")
+  } else { writeLibFish()  
+
+}}
+
+
 
 
 function writeLibFish() {
@@ -237,6 +269,59 @@ function rewriteLibFish() {
     fatl.value = "";
     fpob.value = "";
     fvb2.value = "";
+}
+
+function checkCompletePig(){
+if(gaj1.value == ""){
+    alert("Please fill out all forms!")
+} else if(gvb1.value == ""){
+    alert("Please fill out all forms!")
+} else if(gvb2.value == ""){
+    alert("Please fill out all forms!")
+} else if(gvb3.value == ""){
+    alert("Please fill out all forms!")
+} else if(gpn1.value == ""){
+    alert("Please fill out all forms!")
+} else if(gvb4.value == ""){
+    alert("Please fill out all forms!")
+} else if(gvb5.value == ""){
+    alert("Please fill out all forms!")
+} else if(pvb1.value == ""){
+    alert("Please fill out all forms!")
+} else if(gpn2.value == ""){
+    alert("Please fill out all forms!")
+} else if(gaj2.value == ""){
+    alert("Please fill out all forms!")
+} else if(gvb6.value == ""){
+    alert("Please fill out all forms!")
+} else if(gpn3.value == ""){
+    alert("Please fill out all forms!")
+} else if(gsn1.value == ""){
+    alert("Please fill out all forms!")
+} else if(gvb7.value == ""){
+    alert("Please fill out all forms!")
+} else if(pvb2.value == ""){
+    alert("Please fill out all forms!")
+} else if(gsn2.value == ""){
+    alert("Please fill out all forms!")
+} else if(gsn3.value == ""){
+    alert("Please fill out all forms!")
+} else if(gsn4.value == ""){
+    alert("Please fill out all forms!")
+} else if(pvb3.value == ""){
+    alert("Please fill out all forms!")
+} else if(gaj3.value == ""){
+    alert("Please fill out all forms!")
+} else if(pvb4.value == ""){
+    alert("Please fill out all forms!")
+} else if(pvb5.value == ""){
+    alert("Please fill out all forms!")
+} else if(gsn5.value == ""){
+    alert("Please fill out all forms!")
+} else if(pvb6.value == ""){
+    alert("Please fill out all forms!")
+} else writeLibPig() 
+
 }
 
 
