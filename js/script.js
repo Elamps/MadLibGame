@@ -132,21 +132,21 @@ function rewriteLibPirate() {
     document.getElementById("nou5").type = "text";
     document.getElementById("nou6").type = "text";
     document.getElementById("pob2").type = "text";
-    nou1.value = ""
-    adj1.value = ""
-    ver1.value = ""
-    adv1.value = ""
-    nou2.value = ""
-    adj2.value = ""
-    pno1.value = ""
-    pno2.value = ""
-    pno3.value = ""
-    pob1.value = ""
-    nou3.value = ""
-    nou4.value = ""
-    nou5.value = ""
-    nou6.value = ""
-    pob2.value = ""
+    nou1.value = "";
+    adj1.value = "";
+    ver1.value = "";
+    adv1.value = "";
+    nou2.value = "";
+    adj2.value = "";
+    pno1.value = "";
+    pno2.value = "";
+    pno3.value = "";
+    pob1.value = "";
+    nou3.value = "";
+    nou4.value = "";
+    nou5.value = "";
+    nou6.value = "";
+    pob2.value = "";
 
 }
 
@@ -187,19 +187,19 @@ function rewriteLibFish() {
     document.getElementById("fatl").type = "text";
     document.getElementById("fpob").type = "text";
     document.getElementById("fvb2").type = "text";
-    ffcy.value = ""
-    fav1.value = ""
-    faj1.value = ""
-    fani.value = ""
-    fvg1.value = ""
-    fvb1.value = ""
-    fvg2.value = ""
-    fav2.value = ""
-    faj2.value = ""
-    fapl.value = ""
-    fatl.value = ""
-    fpob.value = ""
-    fvb2.value = ""
+    ffcy.value = "";
+    fav1.value = "";
+    faj1.value = "";
+    fani.value = "";
+    fvg1.value = "";
+    fvb1.value = "";
+    fvg2.value = "";
+    fav2.value = "";
+    faj2.value = "";
+    fapl.value = "";
+    fatl.value = "";
+    fpob.value = "";
+    fvb2.value = "";
 }
 
 
@@ -235,6 +235,56 @@ function writeLibPig() {
     document.getElementById("pvb6").type = "hidden";
 }
 function rewriteLibPig() {
+    fullLibPig.textContent = "";
+    document.getElementById("gaj1").type = "text";
+    document.getElementById("gvb1").type = "text";
+    document.getElementById("gvb2").type = "text";
+    document.getElementById("gvb3").type = "text";
+    document.getElementById("gpn1").type = "text";
+    document.getElementById("gvb4").type = "text";
+    document.getElementById("gvb5").type = "text";
+    document.getElementById("pvb1").type = "text";
+    document.getElementById("gpn2").type = "text";
+    document.getElementById("gaj2").type = "text";
+    document.getElementById("gvb6").type = "text";
+    document.getElementById("gpn3").type = "text";
+    document.getElementById("gsn1").type = "text";
+    document.getElementById("gvb7").type = "text";
+    document.getElementById("pvb2").type = "text";
+    document.getElementById("gsn2").type = "text";
+    document.getElementById("gsn3").type = "text";
+    document.getElementById("gsn4").type = "text";
+    document.getElementById("pvb3").type = "text";
+    document.getElementById("gaj3").type = "text";
+    document.getElementById("pvb4").type = "text";
+    document.getElementById("pvb5").type = "text";
+    document.getElementById("gsn5").type = "text";
+    document.getElementById("pvb6").type = "text";
+    
+    gaj1.value = "";
+    gvb1.value = "";
+    gvb2.value = "";
+    gvb3.value = "";
+    gpn1.value = "";
+    gvb4.value = "";
+    gvb5.value = "";
+    pvb1.value = "";
+    gpn2.value = "";
+    gaj2.value = "";
+    gvb6.value = "";
+    gpn3.value = "";
+    gsn1.value = "";
+    gvb7.value = "";
+    pvb2.value = "";
+    gsn2.value = "";
+    gsn3.value = "";
+    gsn4.value = "";
+    pvb3.value = "";
+    gaj3.value = "";
+    pvb4.value = "";
+    pvb5.value = "";
+    gsn5.value = "";
+    pvb6.value = "";
 
 }
 // "title": "How To Cross a Piranha-Infested River",
