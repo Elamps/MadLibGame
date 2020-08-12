@@ -81,7 +81,7 @@ tabs.forEach(tab => {
     })
 })
 
-startPirate.addEventListener('click', writeLibPirate, false);
+startPirate.addEventListener('click', checkCompletePirate, false);
 resetPirate.addEventListener('click', rewriteLibPirate, false);
 startFish.addEventListener('click', writeLibFish, false);
 resetFish.addEventListener('click', rewriteLibFish, false);
@@ -93,6 +93,43 @@ function startsWithVowel(word){
     return vowels.indexOf(word[0]) !== -1;
 }
 
+function checkCompletePirate(){
+    if (nou1.value == "") {
+        console.log(`not finished`)
+    } else if (adj1.value == "") {
+        console.log(`not finished`) 
+    } else if (ver1.value == "") {
+        console.log(`not finished`)
+    } else if (adv1.value == "") {
+        console.log(`not finished`)
+    } else if (nou2.value == "") {
+        console.log(`not finished`)
+    } else if (adj2.value == "") {
+        console.log(`not finished`)
+    } else if (pno1.value == "") {
+        console.log(`not finished`)
+    } else if (pno2.value == "") {
+        console.log(`not finished`)
+    } else if (pno3.value == "") {
+        console.log(`not finished`)
+    } else if (pob1.value == "") {
+        console.log(`not finished`)
+    } else if (nou3.value == "") {
+        console.log(`not finished`)
+    } else if (nou4.value == "") {
+        console.log(`not finished`)
+    } else if (nou5.value == "") {
+        console.log(`not finished`)
+    } else if (nou6.value == "") {
+        console.log(`not finished`)
+    }else if (pob2.value == "") {
+        console.log(`not finished`)
+    }
+    else { 
+        writeLibPirate()
+    }
+
+}
 
 function writeLibPirate() {
     console.log("write")
