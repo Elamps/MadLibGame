@@ -72,8 +72,7 @@ body {
 
 #pirate {
     background-image: url(/PMapBG.jpg);
-    opacity: 90%;
-    background-position: cover;
+    background-position: justify;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
