@@ -50,7 +50,7 @@ button {
 #pTab {
     background-color: paleturquoise;
     color: black;
-    background-image: url(/PirateHatIcon_light.png);
+    background-image: url(/Images/PirateHatIcon_light.png);
     background-repeat: no-repeat;
     background-position: center fixed;
     background-size: cover
@@ -59,18 +59,18 @@ button {
 #fTab{
     background-color: blanchedalmond;
     color: black;
-    background-image: url(/Pirahna_icon_light.png);
+    background-image: url(/Images/Pirahna_icon_light.png);
 }
 
 #tabP{
     background-color: burlywood;
     color: black;
-    background-image: url(/threepig_icon_light.png);
+    background-image: url(/Images/threepig_icon_light.png);
     background-size: cover;
 }
 
 #pirate {
-    background-image: url(/PMapBG.png);
+    background-image: url(/Images/PMapBG.png);
     background-position: justify;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@ button {
 }
 
 #pirahnas {
-    background-image: url(/underwater_background.jpg);
+    background-image: url(/Images/underwater_background.jpg);
     background-position: justify;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@ button {
 }
 
 #pigs {
-    background-image: url(/book_background.png);
+    background-image: url(/Images/book_background.png);
     background-position: justify;
     background-repeat: no-repeat;
     background-size: cover;
