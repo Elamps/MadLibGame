@@ -87,8 +87,11 @@ button {
     height: 30px;
     align-items: center ;
     font-size: 20px;
-
     background-color: darkgray;
+}
+
+#pTab:hover {
+    background-color: grey;
 }
 
 #pirahnas {
@@ -111,6 +114,10 @@ button {
     background-color: darkgray;
 }
 
+#fTab:hover {
+    background-color: grey;
+}
+
 #pigs {
     background-image: url(/book_background.png);
     background-position: justify;
@@ -131,14 +138,10 @@ button {
     background-color: darkgray;
 }
 
-#pig:hover {
-    background-color: black;
+#tabP:hover {
+    background-color: grey;
 }
 
 .tab.active {
     background-color: #ccc;    
-}
-
-.tab:hover {
-    background-color: #AAA;
 }
