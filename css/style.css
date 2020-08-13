@@ -71,14 +71,14 @@ body {
 }
 
 #pirate {
-    background-image: url(/PMapBG.jpg);
+    background-image: url(/PMapBG.png);
     background-position: justify;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: rgb(46, 1, 1);
 }
 
 #fullLibPirate {
