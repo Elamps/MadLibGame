@@ -40,7 +40,7 @@ ul {
 }
  
 body {
-    background-color: darkslategrey;
+    background-color: rgb(30, 32, 32);
     font-size: large;
     color: seashell;
     padding: 0;
@@ -51,8 +51,24 @@ body {
 margin-top: 50px;
 }
 
+#pTab {
+    background-image: url(/PirateHatIcon_light.png);
+    background-repeat: no-repeat;
+    background-position: center fixed;
+    background-size: cover
+}
+
+#fTab{
+    background-image: url(/Pirahna_icon_light.png);
+}
+
+#pigTab{
+    background-image: url(/threepig_icon_light.png) no-repeat center fixed;
+    background-size: cover;
+}
+
 #pirate {
-    background-image: url("https://img.favpng.com/7/3/6/captain-hook-piracy-royalty-free-privateer-png-favpng-dnJTMxBDUyRRWBBkj7KmGugWX.jpg");
+    background-image: url(/PMapBG.jpg);
     background-position: justify;
     background-repeat: no-repeat;
     background-size: cover;
