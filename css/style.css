@@ -8,6 +8,7 @@
 
 ul {
    font-size: 40px;
+   text-align: center;
 }
 
 .tabs {
@@ -22,16 +23,7 @@ ul {
 .tab {
     cursor: pointer;
     padding: 10px;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-}
-
-.tab.active {
-    background-color: #ccc;    
-}
-
-.tab:hover {
-    background-color: #AAA;
+    width: 370px
 }
 
 .tab-content {
@@ -47,6 +39,13 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: cadetblue;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+
+}
 
 #pTab {
     background-color: paleturquoise;
@@ -93,12 +92,14 @@ body {
 }
 
 #pirahnas {
-    background-image: url(/Pirahna_background_test.png);
+    background-image: url(/underwater_background.jpg);
     background-position: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     text-align: center;
     font-size: 30px;
-    color: seashell;
+    color: black;
 }
 #pirahnas input {
     box-sizing: border-box;
@@ -127,6 +128,17 @@ body {
     height: 30px;
     align-items: center ;
     font-size: 20px;
-
     background-color: darkgray;
+}
+
+#pig:hover {
+    background-color: black;
+}
+
+.tab.active {
+    background-color: #ccc;    
+}
+
+.tab:hover {
+    background-color: #AAA;
 }
