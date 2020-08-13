@@ -128,7 +128,6 @@ function checkCompletePirate(){
     else { 
         writeLibPirate()
     }
-
 }
 
 function writeLibPirate() {
@@ -407,5 +406,4 @@ function rewriteLibPig() {
     pvb5.value = "";
     gsn5.value = "";
     pvb6.value = "";
-
 }
