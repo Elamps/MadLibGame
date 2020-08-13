@@ -150,6 +150,7 @@ function writeLibPirate() {
     document.getElementById("nou5").type = "hidden";
     document.getElementById("nou6").type = "hidden";
     document.getElementById("pob2").type = "hidden";
+    document.getElementById("startPirate").style = "display:none;";
 }
 function rewriteLibPirate() {
     fullLibPirate.textContent = "";
@@ -183,6 +184,7 @@ function rewriteLibPirate() {
     nou5.value = "";
     nou6.value = "";
     pob2.value = "";
+    document.getElementById("startPirate").style = "";
 
 }
 
@@ -238,6 +240,7 @@ function writeLibFish() {
     document.getElementById("fatl").type = "hidden";
     document.getElementById("fpob").type = "hidden";
     document.getElementById("fvb2").type = "hidden";
+    document.getElementById("startFish").style = "display:none;";
 }
 
 function rewriteLibFish() {
@@ -268,6 +271,7 @@ function rewriteLibFish() {
     fatl.value = "";
     fpob.value = "";
     fvb2.value = "";
+    document.getElementById("startFish").style = "";
 }
 
 function checkCompletePig(){
@@ -354,6 +358,7 @@ function writeLibPig() {
     document.getElementById("pvb5").type = "hidden";
     document.getElementById("gsn5").type = "hidden";
     document.getElementById("pvb6").type = "hidden";
+    document.getElementById("startPig").style = "display:none;";
 }
 function rewriteLibPig() {
     fullLibPig.textContent = "";
@@ -406,4 +411,5 @@ function rewriteLibPig() {
     pvb5.value = "";
     gsn5.value = "";
     pvb6.value = "";
+    document.getElementById("startPig").style = "";
 }
