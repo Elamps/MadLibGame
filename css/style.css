@@ -81,10 +81,47 @@ body {
     color: rgb(46, 1, 1);
 }
 
-#fullLibPirate {
-    }
 
 #pirate input {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    align-items: center ;
+    font-size: 20px;
+
+    background-color: darkgray;
+}
+
+#pirahnas {
+    background-image: url(/Pirahna_background_test.png);
+    background-position: justify;
+    height: 600px;
+    text-align: center;
+    font-size: 30px;
+    color: seashell;
+}
+#pirahnas input {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    align-items: center ;
+    font-size: 20px;
+
+    background-color: darkgray;
+}
+
+#pigs {
+    background-image: url(/book_background.png);
+    background-position: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+#pigs input {
     box-sizing: border-box;
     width: 20%;
     height: 30px;
