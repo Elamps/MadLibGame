@@ -75,6 +75,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
     font-size: 30px;
     color: rgb(46, 1, 1);
@@ -103,6 +104,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    font-family: 'Baloo Tamma 2', cursive;
     text-align: center;
     font-size: 30px;
     color: black;
@@ -130,8 +132,9 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    font-family: 'Dancing Script', cursive;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     color: black;
 }
 
