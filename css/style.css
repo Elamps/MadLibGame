@@ -93,6 +93,9 @@ button {
 #pTab:hover {
     background-color: grey;
 }
+#pTab.active {
+    background-color: #ccc;    
+}
 
 #pirahnas {
     background-image: url(/underwater_background.jpg);
@@ -116,6 +119,9 @@ button {
 
 #fTab:hover {
     background-color: grey;
+}
+#fTab.active {
+    background-color: #ccc;    
 }
 
 #pigs {
@@ -142,6 +148,6 @@ button {
     background-color: grey;
 }
 
-.tab.active {
+#tabP.active {
     background-color: #ccc;    
 }
