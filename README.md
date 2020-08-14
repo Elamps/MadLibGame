@@ -1,5 +1,5 @@
 # MadLibGame
-[Link][project1-lampleyLibe.surge.sh]
+[Link](project1-lampleyLibe.surge.sh)
 ---
 ## Wireframe/Description
 ![Image](madwireframe.png)
