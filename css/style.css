@@ -44,7 +44,6 @@ button {
     color: white;
     display: inline-block;
     font-size: 20px;
-
 }
 
 #pTab {
@@ -81,7 +80,6 @@ button {
     color: rgb(46, 1, 1);
 }
 
-
 #pirate input {
     box-sizing: border-box;
     width: 20%;
@@ -109,6 +107,7 @@ button {
     font-size: 30px;
     color: black;
 }
+
 #pirahnas input {
     box-sizing: border-box;
     width: 20%;
@@ -121,6 +120,7 @@ button {
 #fTab:hover {
     background-color: grey;
 }
+
 #fTab.active {
     background-color: #ccc;    
 }

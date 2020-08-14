@@ -36,7 +36,6 @@ let startFish = document.querySelector('#startFish')
 let resetFish = document.querySelector('#resetFish')
 let fullLibFish = document.querySelector('#fullLibFish')
 
-
 let gaj1 = document.querySelector("#gaj1")
 let gvb1 = document.querySelector("#gvb1")
 let gvb2 = document.querySelector("#gvb2")
@@ -64,8 +63,6 @@ let pvb6 = document.querySelector("#pvb6")
 let startPig = document.querySelector('#startPig')
 let resetPig = document.querySelector("#resetPig")
 let fullLibPig = document.querySelector('#fullLibPig')
-
-
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
@@ -185,7 +182,6 @@ function rewriteLibPirate() {
     nou6.value = "";
     pob2.value = "";
     document.getElementById("startPirate").style = "";
-
 }
 
 function checkCompleteFish(){
@@ -218,9 +214,6 @@ function checkCompleteFish(){
   } else { writeLibFish()  
 
 }}
-
-
-
 
 function writeLibFish() {
     console.log("writeFish")
@@ -324,10 +317,7 @@ if(gaj1.value == ""){
 } else if(pvb6.value == ""){
     alert("Please fill out all forms!")
 } else writeLibPig() 
-
 }
-
-
 
 function writeLibPig() {
     console.log("write3")
@@ -360,6 +350,7 @@ function writeLibPig() {
     document.getElementById("pvb6").type = "hidden";
     document.getElementById("startPig").style = "display:none;";
 }
+
 function rewriteLibPig() {
     fullLibPig.textContent = "";
     document.getElementById("gaj1").type = "text";
@@ -386,7 +377,6 @@ function rewriteLibPig() {
     document.getElementById("pvb5").type = "text";
     document.getElementById("gsn5").type = "text";
     document.getElementById("pvb6").type = "text";
-    
     gaj1.value = "";
     gvb1.value = "";
     gvb2.value = "";
