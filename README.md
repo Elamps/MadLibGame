@@ -1,5 +1,5 @@
 # MadLibGame
-project1-lampleyLibe.surge.sh
+[Link][project1-lampleyLibe.surge.sh]
 ---
 ## Wireframe/Description
 ![Image](madwireframe.png)
@@ -13,11 +13,11 @@ project1-lampleyLibe.surge.sh
 - //create a restart button under completed madlib
 ---
 #### Stretch Goals*
-- --add unique styles to display madlib--
-- integrate API to auto-fil blank choices
-- add a delayed laugh track
-- dark/light mode
-- full mobile functionality
+- [x] add unique styles to display madlib
+- [ ] integrate API to auto-fil blank choices
+- [ ] add a delayed laugh track
+- [ ] dark/light mode
+- [ ] full mobile functionality
 ---
 ##### User Stories
 - Dave wants to input juvenile text strings to giggle at stories.
